@@ -1,0 +1,14 @@
+{
+  "name": "markui",
+  "version": "0.0.1",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-less": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.5.0",
+    "load-gulp-tasks": "^0.1.0"
+  }
+}
