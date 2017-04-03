@@ -15,6 +15,14 @@
 - 工作的资本
 - 一套或几套完整的解决方案
 
+如何运行
+==
+1. 确保系统安装了Node.js
+2. 确保全局安装Gulp (构架详情请参见[这里](http://www.gulpjs.com.cn/docs/getting-started/))
+3. npm install
+4. gulp dist
+5. 拯救世界的任务就交给你了
+
 联系我们
 ===
 
