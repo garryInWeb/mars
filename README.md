@@ -18,9 +18,30 @@
 如何运行
 ==
 1. 确保系统安装了Node.js
+```bash
+node -v
+npm -v
+```
 2. 确保全局安装Gulp (构架详情请参见[这里](http://www.gulpjs.com.cn/docs/getting-started/))
-3. npm install
-4. gulp dist
+
+3. 安装依赖
+
+```
+npm install
+```
+4. 任务执行
+
+```
+gulp prod //开发
+gulp dist //构建
+```
+
+ > 开发模式的gulp任务:
+ 
+ - 提供保存及时刷新
+ - autoprefix添加，让我们忘记兼容
+ - less编译缓存，提高编译速度
+ 
 5. 拯救世界的任务就交给你了
 
 联系我们
