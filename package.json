@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "scripts": {
     "webpack": "webpack --colors",
-    "prod": "gulp prod"
+    "prod": "gulp prod",
+    "build": "gulp dist"
   },
   "devDependencies": {
     "babel-loader": "^6.4.1",

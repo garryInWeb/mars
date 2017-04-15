@@ -37,9 +37,20 @@ gulp dist //构建
 ```
 
 > 开发模式的gulp任务:
+>
 > - 提供保存及时刷新
 > - autoprefix添加，让我们忘记兼容
 > - less编译缓存，提高编译速度
+
+5. npm管理
+
+```bash
+npm run webpack //ES6支持，打包支持
+npm run prod 	//同gulp prod
+npm run build	//同gulp dist
+```
+
+
 
 5. 拯救世界的任务就交给你了
 
