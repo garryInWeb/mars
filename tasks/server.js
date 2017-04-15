@@ -8,16 +8,16 @@ module.exports = function (gulp,options,plugins) {
         browserSync.init({
 
             //文件模式
-            // server: {
-            //    // baseDir: baseDir
-            // }
+            server: {
+               baseDir: baseDir
+            }
 
             //本地web服务器
-            proxy: 'localhost:7888'
+            // proxy: 'localhost:7888'
         });
 
         gulp.watch( lessDir , ['compless']);
-        gulp.watch(baseDir + 'css/*.css').on('change', reload);
+        gulp.watch(baseDir + 'css/**/*.css').on('change', reload);
         gulp.watch( baseDir + '/*.html').on('change', reload);
     });
 };
